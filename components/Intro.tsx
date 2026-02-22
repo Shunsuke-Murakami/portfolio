@@ -9,7 +9,7 @@ export function Intro() {
 			{/* Profile image */}
 			<div>
 				<Image
-					src='/profile.jpg' // replace with your image path
+					src='/20260129_231148553_iOS.jpg' // replace with your image path
 					alt='Profile picture'
 					width={56}
 					height={56}
@@ -18,12 +18,13 @@ export function Intro() {
 			</div>
 
 			{/* Heading */}
-			<h1 className='font-bold text-5xl leading-tight'>Software engineer, father, and believer</h1>
+			<h1 className='font-bold text-5xl leading-tight'>Software Engineering Student</h1>
 
 			{/* Description */}
 			<p className='text-base text-gray-600 leading-relaxed dark:text-zinc-400'>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et massa mi. Lorem ipsum dolor sit amet consectetur
-				adipisicing elit. Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et massa mi.
+				I'm a software engineering student at Ensign College passionate about building clean and practical web applications. I
+				enjoy working with React, Next.js, and Java, and I'm constantly improving my skills through real projects and team
+				collaboration.
 			</p>
 
 			{/* Social links */}

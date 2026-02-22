@@ -16,28 +16,16 @@ export default function AboutPage() {
 				{/* Left Column - Heading + Text */}
 				<div className='flex-1'>
 					<h1 className='mb-8 font-bold text-[32px] text-foreground leading-[1.15] tracking-tight md:text-5xl'>
-						I&apos;m Bob. I live in New York City, where I develop the future.
+						Software Engineering Student & Developer
 					</h1>
 
-					<div className='space-y-6 text-base text-zinc-600 leading-7 dark:text-zinc-400'>
+					<div className='space-y-8 text-lg text-zinc-700 leading-9 dark:text-zinc-300'>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-							adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum
-							dolor sit amet consectetur adipiscing elit Ut et massa mi..
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-							adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum
-							dolor sit amet consectetur adipiscing elit Ut et massa mi..
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-							adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum
-							dolor sit amet consectetur adipiscing elit Ut et massa mi..
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-							adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+							Before pursuing software engineering, I worked at a sushi restaurant in Japan until the age of 21. That experience
+							taught me discipline, teamwork, and working under pressure. My long-standing interest in mathematics and problem
+							solving led me to programming, where I discovered a passion for creating practical solutions through code. Today,
+							I’m focused on learning software engineering and building real-world projects as I continue my journey as a
+							developer.
 						</p>
 					</div>
 				</div>
@@ -47,7 +35,7 @@ export default function AboutPage() {
 					{/* Desktop Photo */}
 					<div className='mb-8 hidden md:block'>
 						<div className='relative aspect-[4/5] w-full overflow-hidden rounded-2xl'>
-							<Image src='/profile.jpg' alt='Profile photo' fill className='object-cover' priority />
+							<Image src='/20260129_231148553_iOS.jpg' alt='Profile photo' fill className='object-cover' priority />
 						</div>
 					</div>
 
@@ -62,7 +50,7 @@ export default function AboutPage() {
 						</Link>
 
 						<Link
-							href='#'
+							href='https://github.com/Shunsuke-Murakami'
 							className='flex items-center gap-3 text-muted-foreground text-sm transition-colors hover:text-foreground'
 						>
 							<Image src='/GitHub.svg' alt='GitHub' width={20} height={20} className='dark:invert' />
@@ -98,7 +86,7 @@ export default function AboutPage() {
 									<rect width='20' height='16' x='2' y='4' rx='2' />
 									<path d='m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7' />
 								</svg>
-								<span>bob@email.com</span>
+								<span>shun.m1212@gmail.com</span>
 							</Link>
 						</div>
 					</div>

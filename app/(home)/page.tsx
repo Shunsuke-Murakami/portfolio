@@ -8,32 +8,18 @@ import { WorkWidget } from '@/components/WorkWidget';
 
 const experiences = [
 	{
-		logo: '/Slack.svg',
-		organization: 'Slack',
-		jobTitle: 'Software Engineer',
-		startYear: 2016,
+		logo: '/Ensign.png',
+		organization: 'Ensign',
+		jobTitle: 'Software Engineering Student',
+		startYear: 2025,
 		endYear: null,
 	},
 	{
-		logo: '/Spotify.svg',
-		organization: 'Spotify',
-		jobTitle: 'Software Engineer',
-		startYear: 2014,
-		endYear: 2015,
-	},
-	{
-		logo: '/Audible.svg',
-		organization: 'Audible',
-		jobTitle: 'Software Engineer',
-		startYear: 2012,
-		endYear: 2013,
-	},
-	{
-		logo: '/Microsoft.svg',
-		organization: 'Microsoft',
-		jobTitle: 'Software Engineer',
-		startYear: 2010,
-		endYear: 2011,
+		logo: '/Uobei.png',
+		organization: 'Uobei',
+		jobTitle: 'Chef',
+		startYear: 2022,
+		endYear: 2025,
 	},
 ];
 
@@ -45,20 +31,20 @@ export default function Page() {
 				<div className='space-y-8 lg:flex-1 dark:text-zinc-400'>
 					<ArticleCard
 						date='2023-12-25'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						title='Portfolio Website'
+						description='A personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS. Designed to showcase my projects, skills, and growth as a software engineering student.'
 						url='/articles/sample-article'
 					/>
 					<ArticleCard
 						date='2023-12-25'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						title='FamilyHistorySync (Java)'
+						description='A Java project using JDBC and SQLite to synchronize family history data from CSV files into a database. Focused on file I/O, database operations, and clean architecture.'
 						url='/articles/sample-article'
 					/>
 					<ArticleCard
 						date='2024-06-01'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						title='Course & Team Projects'
+						description='Various school and team-based projects focused on web development, problem solving, and collaborative software engineering practices.'
 						url='/articles/sample-article'
 					/>
 				</div>
@@ -73,16 +59,20 @@ export default function Page() {
 
 					<WorkWidget
 						title={'Work'}
-						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utet massa mi.'}
+						content={
+							'A combination of academic learning and real-world work experience that shaped my problem-solving and teamwork skills.'
+						}
 						experiences={experiences}
 					/>
 					<SkillsWidget
 						title={'Skills'}
-						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.'}
+						content={'Technical skills I use to build web applications and solve real-world problems.'}
 						skills={[
-							{ icon: '/icons/html.svg', name: 'HTML', proficiency: 25 },
-							{ icon: '/icons/css.svg', name: 'CSS', proficiency: 25 },
-							{ icon: '/icons/js.svg', name: 'JavaScript', proficiency: 25 },
+							{ icon: '/icons/html.svg', name: 'HTML', proficiency: 80 },
+							{ icon: '/icons/css.svg', name: 'CSS', proficiency: 80 },
+							{ icon: '/icons/js.svg', name: 'JavaScript', proficiency: 80 },
+							{ icon: 'react.webp', name: 'React', proficiency: 80 },
+							{ icon: 'tailwindcss.png', name: 'Tailwind CSS', proficiency: 80 },
 						]}
 					/>
 				</div>

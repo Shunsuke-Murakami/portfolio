@@ -11,84 +11,53 @@ export default function Uses() {
 						Software I use, gadgets I love, and other things I recommend.
 					</h1>
 
-					<p className='text-base text-zinc-600 leading-relaxed dark:text-zinc-400'>
-						Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-						adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum
-						dolor sit amet consectetur adipiscing elit Ut et massa mi..
+					<p className='text-lg text-zinc-700 leading-8 dark:text-zinc-300'>
+						Here are the tools and apps I use for studying software engineering and building real projects—coding, learning, and
+						staying productive.
 					</p>
 				</section>
 
 				{/* Content */}
-				<section className='mt-20 space-y-20'>
+				<section className='mt-24 space-y-24'>
 					{/* Workstation */}
-					<UsesSection title='Workstation'>
+					<UsesSection title='Coding Setup'>
 						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
+							title='Windows Laptop'
+							description='I do most of my coursework and development on Windows with VS Code and Git Bash.'
 						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
+						<UsesItem title='Git Bash' description='My main terminal for Git workflow and project commands.' />
 					</UsesSection>
 
 					{/* Development tools */}
 					<UsesSection title='Development tools'>
 						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
+							title='VS Code'
+							description='My daily editor for React/Next.js and Java projects. I use extensions like Prettier and ESLint.'
 						/>
 						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
+							title='GitHub'
+							description='I use GitHub for version control, branches, and collaboration on team assignments.'
 						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
+						<UsesItem title='Next.js' description='Used for building and running Next.js projects.' />
 					</UsesSection>
 
 					{/* Design */}
 					<UsesSection title='Design'>
 						<UsesItem
-							title='Whimsical'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
 							title='Figma'
-							description='We initially adopted Figma primarily as a design tool, but it has evolved into our virtual whiteboard that serves the entire company. The unexpected allure turned out to be the powerful collaboration features it offers.'
+							description='I use Figma to understand layouts, spacing, and UI structure when building modern web interfaces.'
 						/>
 					</UsesSection>
 
 					{/* Productivity */}
 					<UsesSection title='Productivity'>
 						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
+							title='YouTube / Docs'
+							description='I learn by reading documentation first, then reinforcing concepts with short videos and practice.'
 						/>
 						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
+							title='ChatGPT'
+							description='I use it to debug, understand concepts, and improve my English explanations for assignments.'
 						/>
 					</UsesSection>
 				</section>
