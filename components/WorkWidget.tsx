@@ -25,7 +25,7 @@ export function WorkWidget({ title, content, experiences = [] }: WorkWidgetProps
 				data-testid='workWidgetTitle'
 				className='mb-2 flex items-center gap-3 font-semibold text-lg text-zinc-900 leading-7 dark:text-zinc-100'
 			>
-				<img data-testid='workWidgetTitleIcon' src='/Vector.svg' alt='Work Icon' className='h-6 w-6 shrink-0' />
+				<img data-testid='workWidgetTitleIcon' src='./Vector.svg' alt='Work Icon' className='h-6 w-6 shrink-0' />
 				{title}
 			</h2>
 
